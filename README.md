@@ -1,8 +1,18 @@
-# Pascal Coin: P2P Cryptocurrency without need of historical operations.  
+# Pascal Coin: P2P Cryptocurrency
+# without need of historical operations.  
   
 Copyright (c) 2016-2018 PascalCoin developers based on original Albert Molina source code
-  
-THIS IS EXPERIMENTAL SOFTWARE. Use it for educational purposes only.  
+THIS IS EXPERIMENTAL SOFTWARE. Use it for educational purposes only.
+
+FEB-2018 FORK, Migrate the code to use:
+
+### DXInternet for client communications
+
+### DXSock for server communications
+
+### OpenSSL back to the author's build instead of the INDY hack
+
+### MPC-CodeRunner Integrated into Modern Pascal's CodeRunner server (why not mine while running scripts?!)
   
 This software is a Node of the Pascal Coin P2P Cryptocurrency.  
 It can be used to Mine and Explore blocks and operations.  
@@ -10,18 +20,13 @@ It can be used to Mine and Explore blocks and operations.
 Distributed under the MIT software license, see the accompanying file  
 LICENSE  or visit http://www.opensource.org/licenses/mit-license.php.  
 
-This product includes software developed by the OpenSSL Project and Denis  
-Grinyuk (https://github.com/Arvur/OpenSSL-Delphi), and some  
-cryptographic functions inspirated in code written by Ladar Levison and   
-Marco Ferrante.  
 Original source code is written in Pascal Language and is available at   
 https://github.com/PascalCoin/PascalCoin  
   
   
-## HOW TO COMPILE:  
+## HOW TO COMPILE:  REVISIONS COMING SOON FOR MPC/DXSOCK
   
 See instructions at GitHub Wiki: https://github.com/PascalCoin/PascalCoin/wiki
-  
   
 Enjoy Pascal Coin!
   
